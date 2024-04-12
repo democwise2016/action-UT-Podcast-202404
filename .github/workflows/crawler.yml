@@ -117,10 +117,10 @@ jobs:
         run: |
           ls -lh ./cache/*.sqlite || true
 
-      # - name: Output Calculate Before
-      #   run: |
-      #     ./app/stat/folder_stats.sh ./output || true
-      #     ls -lh ./output/*.rss
+      - name: Output Calculate Before
+        run: |
+          ./app/stat/folder_stats.sh ./output || true
+          ls -lh ./output/*.rss
       
       # ----------------------------------------------------------------
 
