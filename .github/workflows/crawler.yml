@@ -89,15 +89,15 @@ jobs:
       #   run: |
       #     rm -f ./output/.gitignore
 
-      - name: Clean output "Invalid date-"
-        run: |
-          ls -lh ./output/*/Invalid* || true
-          rm -f ./output/*/Invalid*
-          find ./output/*/ -type f -name '*"' -exec rm {} \;
+      # - name: Clean output "Invalid date-"
+      #   run: |
+      #     ls -lh ./output/*/Invalid* || true
+      #     rm -f ./output/*/Invalid*
+      #     find ./output/*/ -type f -name '*"' -exec rm {} \;
 
-      - name: List output "Invalid date-"
-        run: |
-          ls -lh ./output/*/Invalid* || true
+      # - name: List output "Invalid date-"
+      #   run: |
+      #     ls -lh ./output/*/Invalid* || true
 
       # - name: Clean Cache
       #   run: |
