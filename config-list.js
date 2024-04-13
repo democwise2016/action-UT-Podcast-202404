@@ -13,6 +13,12 @@ let feedList = [
     homepageURL: 'https://www.youtube.com/channel/UCQceikp-aRr_e5uCARuPvEQ',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
   },
+  {
+    title: 'Emmy追劇時間 看財經',
+    feedID: 'emmytw',
+    homepageURL: 'https://www.youtube.com/channel/UCUkwvRrpvWkocNdk9qIpRSw',
+    itemFilters: ItemFiltersPreset.between3minTo30Min,
+  },
 ]
 
 // ---------------------------------------
