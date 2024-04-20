@@ -19,7 +19,16 @@ let feedList = [
     homepageURL: 'https://www.youtube.com/channel/UCUkwvRrpvWkocNdk9qIpRSw',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
   },
+  {
+    title: '搞完君2.0 講 迷因',
+    feedID: 'GWjun2.0',
+    homepageURL: 'https://www.youtube.com/channel/UCwYTuoLZaII23xxAGV2zqcA',
+    itemFilters: ItemFiltersPreset.between1minTo10Min,
+  },
 ]
+
+// 取得ID
+// https://docs.google.com/spreadsheets/d/1VL7M9rQfIT1yTDx5noSKQFzaEoG2WVUF0k8ODta8Upk/edit#gid=2000612407
 
 // ---------------------------------------
 
