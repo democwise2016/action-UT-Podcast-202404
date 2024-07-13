@@ -171,6 +171,10 @@ jobs:
         run: |
           ls -lh ./output/*/Invalid* || true
 
+      - name: Remove .gitignore
+        run: |
+            rm -rf ./output/.gitignore || true
+        
       # ----------------------------------------------------------------
 
       - name: Deploy 🚀
