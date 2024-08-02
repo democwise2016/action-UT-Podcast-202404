@@ -5,7 +5,7 @@ const feedList = require('./config-list.js')
 let CONFIG = {
   publicURL: `https://democwise2016.github.io/action-UT-Podcast-202404/`,
   publicURLShorten: `https://ppt.cc/fnNzzx`,
-  thumbnailBorderColor: '298069',
+  thumbnailBorderColor: 'B9C6AE',
   maxDownloadItemPerFeed: 5,
   maxDownloadFeed: 30,
   newArrialMax: 5,
