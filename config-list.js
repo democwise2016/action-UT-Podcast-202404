@@ -14,12 +14,6 @@ let feedList = [
     itemFilters: ItemFiltersPreset.between3minTo30Min,
   },
   {
-    title: 'Emmy追劇時間 看財經',
-    feedID: 'emmytw',
-    homepageURL: 'https://www.youtube.com/channel/UCUkwvRrpvWkocNdk9qIpRSw',
-    itemFilters: ItemFiltersPreset.between3minTo30Min,
-  },
-  {
     title: '搞完君2.0 講 迷因',
     feedID: 'GWjun2.0',
     homepageURL: 'https://www.youtube.com/channel/UCwYTuoLZaII23xxAGV2zqcA',
