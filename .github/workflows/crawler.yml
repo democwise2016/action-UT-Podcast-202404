@@ -120,7 +120,7 @@ jobs:
       - name: Output Calculate Before
         run: |
           ./app/stat/folder_stats.sh ./output || true
-          ls -lh ./output/*.rss
+          ls -lh ./output/*.rss || true
       
       # ----------------------------------------------------------------
 
@@ -143,7 +143,7 @@ jobs:
       - name: Main
         run: |
           bash ./install_docker_compose.sh
-          docker-compose up
+          docker-compose up --abort-on-container-exit
 
       # ----------------------------------------------------------------
 
@@ -154,7 +154,7 @@ jobs:
       - name: Output Calculate After
         run: |
           ./app/stat/folder_stats.sh ./output || true
-          ls -lh ./output/*.rss
+          ls -lh ./output/*.rss || true
 
       # - name: Cache Save
       #   id: cache-save
