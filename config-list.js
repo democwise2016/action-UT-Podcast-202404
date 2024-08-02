@@ -19,6 +19,13 @@ let feedList = [
     homepageURL: 'https://www.youtube.com/channel/UCwYTuoLZaII23xxAGV2zqcA',
     itemFilters: ItemFiltersPreset.between1minTo10Min,
   },
+  {
+    title: '超級歪 說書',
+    feedID: 'superycinema',
+    homepageURL: 'https://www.youtube.com/channel/UCAM7yIYvZGYLJR6z6RqLlNw',
+    itemFilters: ItemFiltersPreset.between3minTo30Min,
+  },
+  
 ]
 
 // 4 / 20
