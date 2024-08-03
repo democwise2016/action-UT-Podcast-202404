@@ -6,6 +6,7 @@ let CONFIG = {
   thumbnailBorderColor: 'B9C6AE',
 
   titleAppend: '',
+  titleSuffix: ' [UT]',
   idAppend: false,
 
   maxDownloadItemPerFeed: 50,
