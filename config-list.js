@@ -43,6 +43,12 @@ let feedList = [
       maxItems: 3
     }
   },
+  {
+    title: '通勤者之歌',
+    feedID: 'PoemOfBikers',
+    homepageURL: 'https://www.youtube.com/@%E9%80%9A%E5%8B%A4%E8%80%85%E4%B9%8B%E6%AD%8C/videos',
+    itemFilters: ItemFiltersPreset.between3minTo30Min,
+  },
 ]
 
 // 4 / 20
