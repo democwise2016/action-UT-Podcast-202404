@@ -31,6 +31,24 @@ let feedList = [
     homepageURL: 'https://www.youtube.com/channel/UCEaPnL10x4UY7VawhPbDU1A',
     itemFilters: ItemFiltersPreset.between3minTo30Min,
   },
+  {
+    title: '萊斯 新Game報',
+    feedID: 'LiceMoo-GameNews',
+    homepageURL: 'https://www.youtube.com/channel/UC9WiXJEyHMGRqL-__3FIBEw',
+    itemFilters: [
+      ItemFiltersPreset.between3minTo30Min,
+      (item) => { return (item.title.indexOf('新Game報') > -1) }
+    ],
+    options: {
+      maxItems: 3
+    }
+  },
+  {
+    title: '通勤者之歌',
+    feedID: 'PoemOfBikers',
+    homepageURL: 'https://www.youtube.com/@%E9%80%9A%E5%8B%A4%E8%80%85%E4%B9%8B%E6%AD%8C/videos',
+    itemFilters: ItemFiltersPreset.between3minTo30Min,
+  },
 ]
 
 // 4 / 20
