@@ -16,6 +16,8 @@ let CONFIG = {
   maxExcutionMinutes: 25,
 
   maxFileCache: 5000,
+
+  MAX_SAME_TIME: 10,
   // feedList
 }
 
